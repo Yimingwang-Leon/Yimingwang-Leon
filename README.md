@@ -19,13 +19,13 @@ Interested in **neural networks**, **machine learning**, **feature engineering**
 ## 🧠 Featured Projects
 
 
-### 🏦 Credit Scoring Model for New Borrowers 
+### Credit Scoring Model for New Borrowers 
 [🔗 View Repository](https://github.com/Yimingwang-Leon/credit-scoring-model)
 
 - RF-based imputation, outlier removal  
 - Automated binning + WOE encoding  
 - Logistic regression scorecard  
-✅ **AUC: 0.86**
+
 
 
 ---
