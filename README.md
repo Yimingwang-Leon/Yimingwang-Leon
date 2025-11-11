@@ -18,13 +18,19 @@ Interested in **neural networks**, **machine learning**, **feature engineering**
 
 ## 🧠 Featured Projects
 
+### Decision Tree for Indoor WiFi Location Classification
+
+- Built a decision tree from scratch using NumPy
+- 10-fold cross-validation with confusion-matrix evaluation
+- Pruning to reduce overfitting
 
 ### Credit Scoring Model for New Borrowers 
 [🔗 View Repository](https://github.com/Yimingwang-Leon/credit-scoring-model)
 
 - RF-based imputation, outlier removal  
 - Automated binning + WOE encoding  
-- Logistic regression scorecard  
+- Logistic regression scorecard
+
 
 
 
