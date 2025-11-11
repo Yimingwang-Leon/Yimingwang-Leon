@@ -17,6 +17,11 @@ Interested in **neural networks**, **machine learning**, **feature engineering**
 ---
 
 ## 🧠 Featured Projects
+### Neural Network Mini-Library & Housing Price Regressor
+[View Repository](https://github.com/Yimingwang-Leon/housing-price-regression)
+- Implemented a neural network mini-library from scratch using NumPy
+- Built a regression model for the California Housing dataset
+- Preprocessing with scikit-learn and structured hyperparameter tuning
 ### Decision Tree for Indoor WiFi Location Classification
 [View Repository](https://github.com/Yimingwang-Leon/decision-tree-wifi-localisation)
 - Built a decision tree from scratch using NumPy
