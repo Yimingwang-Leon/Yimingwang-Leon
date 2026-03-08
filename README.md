@@ -1,18 +1,11 @@
 ## 🧠 Patronising and Condescending Language (PCL) Detection
 
-Binary classification of Patronising and Condescending Language toward vulnerable social groups, based on **SemEval 2022 Task 4**.
+Developed a binary classifier for **SemEval 2022 Task 4** to detect patronising and condescending language in text.
 
-- **Official test F1 (positive class): 0.614**
-- **Final rank: 6 / 233**
+- **Official test F1:** 0.6144
+- **Rank:** 6 / 233
+- **Model:** RoBERTa large
+- **Methods:** partial fine tuning, synthetic augmentation, threshold optimisation
 
-### Highlights
-- Fine tuned **RoBERTa large** for binary PCL detection
-- Used **partial layer freezing** to reduce overfitting on the small positive class
-- Improved minority class coverage through **synthetic data augmentation**
-- Applied **decision threshold optimisation** to maximise positive class F1
-
-### Tech Stack
-Python · PyTorch · HuggingFace Transformers · Scikit learn
-
-🔗 **Project Repository:**  
-https://github.com/Yimingwang-Leon/pcl-text-classification
+**Tech:** Python · PyTorch · HuggingFace Transformers · Scikit learn  
+**Repo:** [pcl-text-classification](https://github.com/Yimingwang-Leon/pcl-text-classification)
