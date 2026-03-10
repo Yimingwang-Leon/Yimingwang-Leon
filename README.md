@@ -20,7 +20,7 @@ Developed a binary classifier for **SemEval 2022 Task 4** to detect patronising 
 - **Model:** RoBERTa large
 - **Methods:** partial fine tuning, synthetic augmentation, threshold optimisation
 
-**Tech:** Python · PyTorch · HuggingFace Transformers · Scikit learn  
+**Tech:** Python · PyTorch · HuggingFace Transformers · scikit-learn  
 **Repo:** [pcl-text-classification](https://github.com/Yimingwang-Leon/pcl-text-classification)
 
 
