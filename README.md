@@ -3,8 +3,9 @@
 Developed a zero-code AI website builder for non-technical small business owners to generate, edit, and deploy complete mobile-first storefronts using natural language only.
 
 - **Demo:** [huggingface.co/spaces/Yiming-Leon/html_generator](https://huggingface.co/spaces/Yiming-Leon/html_generator)
+- **Video:** [Watch demo on YouTube](https://www.youtube.com/watch?v=-PHru73Ig0Q)
 - **Models:** Qwen2.5-7B-Instruct (intent parsing), Qwen2.5-Coder-14B-Instruct (HTML generation), SD-Turbo (poster generation)
-- **Methods:** Multi-model pipeline, structured HTML template generation, menu item extraction from ZIP uploads, promotional poster synthesis with PIL text overlay
+- **Methods:** Multi-model pipeline, structured HTML template generation, promotional poster synthesis with PIL text overlay
 - **Features:** Create shop pages from text description, edit blocks via natural language, generate promotional posters, export full website as ZIP
 
 **Tech:** Python · Gradio · HuggingFace Transformers · Diffusers · PyTorch · PIL
