@@ -1,4 +1,4 @@
-## 🛍️ ShopSite AI — Natural Language-Driven Storefront Generation
+## ShopSite AI — Natural Language-Driven Storefront Generation
 
 Developed a zero-code AI website builder for non-technical small business owners to generate, edit, and deploy complete mobile-first storefronts using natural language only.
 
@@ -11,7 +11,7 @@ Developed a zero-code AI website builder for non-technical small business owners
 **Tech:** Python · Gradio · HuggingFace Transformers · Diffusers · PyTorch · PIL
 
 
-## 🧠 Patronising and Condescending Language (PCL) Detection
+## Patronising and Condescending Language (PCL) Detection
 
 Developed a binary classifier for **SemEval 2022 Task 4** to detect patronising and condescending language in text.
 
@@ -24,7 +24,15 @@ Developed a binary classifier for **SemEval 2022 Task 4** to detect patronising 
 **Repo:** [pcl-text-classification](https://github.com/Yimingwang-Leon/pcl-text-classification)
 
 
-## 🏥 Real-Time AKI Detection System
+## LLM From Scratch
+
+Implemented a complete LLM pre-training pipeline from scratch, including BPE tokenizer, Transformer, AdamW optimizer, and top-p sampling decoder.
+
+**Tech:** Python · PyTorch · NumPy  
+**Repo:** [llm-from-scratch](https://github.com/Yimingwang-Leon/llm-from-scratch)
+
+
+## Real-Time AKI Detection System
 
 Developed a real-time **Acute Kidney Injury (AKI)** detection service deployed on Kubernetes, processing live HL7 messages from a hospital simulator over a two-week assessment period.
 
