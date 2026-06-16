@@ -1,3 +1,16 @@
+## kaggle NVIDIA Nemotron Model Reasoning Challenge — 🥈 Silver Medal (51st)
+
+Trained a LoRA adapter on a frozen 30B Mixture-of-Experts model to solve seven classes of symbolic reasoning tasks, teaching the model to reproduce deterministic step-by-step solver traces under greedy decoding.
+
+- **Result:** Private LB 0.86 · Rank 51 / 4354 (🥈 Silver Medal)
+- **Base model:** NVIDIA-Nemotron-3-Nano-30B-A3B (MoE), LoRA rank-32
+- **Approach:** Decomposed score as `LB = oracle × realization` — wrote deterministic per-task solvers that emit token-level chain-of-thought, then distilled them into the model via supervised LoRA fine-tuning (the model learns the *reasoning procedure*, not memorised answers)
+- **Methods:** Programmatic CoT generation, min-logprob curriculum, full-stack MoE LoRA (incl. expert up/down_proj), exhaustive-enumeration equation solver, train-split-only regimen for out-of-distribution robustness
+
+**Tech:** Python · PyTorch · PEFT/LoRA · HuggingFace Transformers · Tinker  
+**Repo:** [reason](https://github.com/Yimingwang-Leon/reason)
+
+
 ## ShopSite AI — Natural Language-Driven Storefront Generation
 
 Developed a zero-code AI website builder for non-technical small business owners to generate, edit, and deploy complete mobile-first storefronts using natural language only.
@@ -43,4 +56,3 @@ Developed a real-time **Acute Kidney Injury (AKI)** detection service deployed o
 
 **Tech:** Python · scikit-learn · Docker · Kubernetes · HL7/MLLP · Prometheus  
 **Repo:** [aki-detection-system](https://github.com/Yimingwang-Leon/aki-detection-system)
-
